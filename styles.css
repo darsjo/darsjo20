@@ -1368,3 +1368,28 @@
             }
         }
  
+/* حالت موبایل */
+@media (max-width: 768px) {
+
+    /* هدر ستونی شود */
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* منوی اصلی مخفی شود */
+    nav {
+        display: none;
+    }
+
+    /* دکمه منوی موبایل نمایش داده شود */
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    /* شماره تماس کوچک‌تر شود */
+    .header-contact {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}
